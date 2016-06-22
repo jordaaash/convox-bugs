@@ -1,0 +1,17 @@
+{
+    "name":         "convox-bugs",
+    "version":      "0.0.1",
+    "private":      true,
+    "description":  "Reproduction of Convox bugs",
+    "author":       "Jordan Sexton <jordan@jordansexton.com>",
+    "engines":      {
+        "node": "6.2.0"
+    },
+    "scripts":      {
+        "test": "mocha --timeout 5000 --slow 500 index.js"
+    },
+    "dependencies": {
+        "mocha": "2.5.3",
+        "chai":  "3.5.0"
+    }
+}

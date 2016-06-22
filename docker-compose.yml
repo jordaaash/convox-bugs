@@ -1,0 +1,5 @@
+app:
+  build: .
+  command: npm test
+  volumes:
+    - .:/usr/src/app
