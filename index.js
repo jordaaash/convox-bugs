@@ -5,7 +5,7 @@ var path   = require('path');
 var expect = require('chai').expect;
 
 describe('convox start', function () {
-    it(".dockerignore doesn't work", function () {
+    it(".dockerignore works (as long as docker-compose.yml doesn't use 'volumes')", function () {
         var readFile = function () {
             var file   = path.join(__dirname, 'secrets', 'secret.txt');
             return fs.readFileSync(file, 'utf8');
