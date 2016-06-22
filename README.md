@@ -1,3 +1,7 @@
 #### Convox Bugs
 
-See individual branches for bug reproductions.
+```
+git clone https://github.com/jordansexton/convox-bugs.git
+git checkout start
+convox start
+```
