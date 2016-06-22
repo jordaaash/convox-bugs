@@ -12,4 +12,8 @@ describe('convox start', function () {
         };
         expect(readFile).to.throw(/ENOENT/);
     });
+
+    it(".env doesn't work", function () {
+        expect(process.env).to.have.property('SOME_VAR', 'some_val');
+    });
 });
