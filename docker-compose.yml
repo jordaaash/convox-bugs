@@ -1,3 +1,5 @@
 app:
   build: .
   command: npm test
+  environment:
+    - SOME_VAR
